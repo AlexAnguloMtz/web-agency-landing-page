@@ -13,44 +13,69 @@ const baseImageUrl = '../../../../assets/images/placeholders/';
 export class CrewComponent {
   members: Array<CrewMember> = [
     {
-      name: 'Marco Forest',
+      name: 'Kim Chan',
       gender: 'male',
       githubUrl: 'http://www.github.com',
       linkedInUrl: 'http://www.linkedin.com',
       twitterUrl: 'http://www.twitter.com',
       role: {
-        name: 'CTO',
-        description: 'Manages all technology related stuff',
+        name: 'Sr Developer',
       },
-      phrase:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-      profilePicture: baseImageUrl + 'placeholder-anime-CTO.jpg',
-    },
-    {
-      name: 'John Smith',
-      gender: 'male',
-      githubUrl: 'http://www.github.com',
-      linkedInUrl: 'http://www.linkedin.com',
-      twitterUrl: 'http://www.twitter.com',
-      role: {
-        name: 'CEO',
-        description: 'Fundador y Director Ejecutivo de My Company',
-      },
-      phrase: 'Atrévete a soñar, desafía los límites, crea el futuro',
       profilePicture: baseImageUrl + 'placeholder-anime-CEO.jpg',
     },
     {
-      name: 'Diana Skies',
+      name: 'Xavier Zhang',
+      gender: 'male',
+      githubUrl: 'http://www.github.com',
+      linkedInUrl: 'http://www.linkedin.com',
+      twitterUrl: 'http://www.twitter.com',
+      role: {
+        name: 'AI Science Developer',
+      },
+      profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
+    },
+    {
+      name: 'Sophia Wang',
       gender: 'female',
       githubUrl: 'http://www.github.com',
       linkedInUrl: 'http://www.linkedin.com',
       twitterUrl: 'http://www.twitter.com',
       role: {
-        name: 'CFO',
-        description: 'Manages all money related stuff',
+        name: 'Data Science',
       },
-      phrase:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
+    },
+    {
+      name: 'Eva Martinez',
+      gender: 'female',
+      githubUrl: 'http://www.github.com',
+      linkedInUrl: 'http://www.linkedin.com',
+      twitterUrl: 'http://www.twitter.com',
+      role: {
+        name: 'Graphic Design',
+      },
+      profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
+    },
+    {
+      name: 'Stella Nguyen',
+      gender: 'female',
+      githubUrl: 'http://www.github.com',
+      linkedInUrl: 'http://www.linkedin.com',
+      twitterUrl: 'http://www.twitter.com',
+      role: {
+        name: 'Digital Marketing',
+      },
+      profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
+    },
+    {
+      name: 'Marco Ugarte',
+      gender: 'female',
+      githubUrl: 'http://www.github.com',
+      linkedInUrl: 'http://www.linkedin.com',
+      twitterUrl: 'http://www.twitter.com',
+      role: {
+        name: 'Business Intelligence',
+      },
       profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
     },
   ];
