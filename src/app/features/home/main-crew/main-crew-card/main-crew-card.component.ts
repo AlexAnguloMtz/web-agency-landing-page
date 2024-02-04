@@ -9,4 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class MainCrewCardComponent {
   @Input() text: string;
+  @Input() profilePicture: string;
 }

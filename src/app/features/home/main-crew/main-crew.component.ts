@@ -33,7 +33,7 @@ export class MainCrewComponent {
       },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-      profilePicture: '',
+      profilePicture: '../../../../assets/images/placeholder-anime-CEO.jpg',
       socialNetworks: [],
     },
     {
