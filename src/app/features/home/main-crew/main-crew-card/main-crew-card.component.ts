@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CrewMember } from '../CrewMember';
+import { CrewMember } from '../../../../types/CrewMember';
 
 @Component({
   selector: 'app-main-crew-card',

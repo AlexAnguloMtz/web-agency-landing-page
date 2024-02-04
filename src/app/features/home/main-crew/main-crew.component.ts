@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MainCrewCardComponent } from './main-crew-card/main-crew-card.component';
-import { CrewMember } from './CrewMember';
+import { CrewMember } from '../../../types/CrewMember';
 
 @Component({
   selector: 'app-main-crew',
