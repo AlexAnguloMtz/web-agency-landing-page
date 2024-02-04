@@ -12,6 +12,32 @@ import { NavLogoComponent } from './nav-logo/nav-logo.component';
 })
 export class NavComponent {
   visibleLinks = false;
+  routes = [
+    {
+      href: '/about-us',
+      name: 'ABOUT US',
+    },
+    {
+      href: '/services',
+      name: 'SERVICES',
+    },
+    {
+      href: '/company',
+      name: 'COMPANY-NAME',
+    },
+    {
+      href: '/clients',
+      name: 'CLIENTS',
+    },
+    {
+      href: '/careers',
+      name: 'CAREERS',
+    },
+    {
+      href: '/contact',
+      name: 'CONTACT',
+    },
+  ];
 
   setLinksVisible(visible: boolean) {
     this.visibleLinks = visible;

@@ -5,12 +5,9 @@
         <img src="../../../assets/icons/xmark-solid.svg" alt="close" />
       </button>
     </div>
-    <app-nav-link text="ABOUT US"></app-nav-link>
-    <app-nav-link text="SERVICES"></app-nav-link>
-    <app-nav-link text="HALY-TECH"></app-nav-link>
-    <app-nav-link text="CLIENTS"></app-nav-link>
-    <app-nav-link text="CAREERS"></app-nav-link>
-    <app-nav-link text="CONTACT"></app-nav-link>
+    @for (route of routes; track route.href) {
+    <app-nav-link text="{{ route.name }}"></app-nav-link>
+    }
   </ul>
   <app-nav-logo></app-nav-logo>
   <app-hamburguer-button
