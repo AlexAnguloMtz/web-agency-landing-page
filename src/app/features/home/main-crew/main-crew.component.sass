@@ -13,12 +13,15 @@
 
 .main-crew__cards
   justify-content: space-evenly
-  gap: 30px
   margin-top: 26px
+  display: flex
+  flex-direction: column
+  gap: 12px
 
 app-main-crew-card
   width: 100%
 
 @media screen and (min-width: 800px)
   .main-crew__cards
-    display: flex
+    flex-direction: row
+    gap: 30px
