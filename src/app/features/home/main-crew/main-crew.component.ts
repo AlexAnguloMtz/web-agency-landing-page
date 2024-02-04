@@ -14,6 +14,7 @@ export class MainCrewComponent {
   members: Array<CrewMember> = [
     {
       name: 'John Smith',
+      gender: 'male',
       role: 'Team Leader',
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
@@ -22,6 +23,7 @@ export class MainCrewComponent {
     },
     {
       name: 'Diana Skies',
+      gender: 'female',
       role: 'CTO',
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
@@ -30,6 +32,7 @@ export class MainCrewComponent {
     },
     {
       name: 'Marco Stue',
+      gender: 'male',
       role: 'CTO',
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
