@@ -13,9 +13,13 @@
   background-size: cover
   background-repeat: no-repeat
   background-position: center center
+  transition: opacity 200ms ease
 
 .main-crew__card:hover
   transform: translateY(-20px)
+
+.main-crew__card:hover .main-crew__card-overlay
+  opacity: 0
 
 .main-crew__card-data
   position: absolute
