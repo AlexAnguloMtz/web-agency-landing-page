@@ -14,7 +14,7 @@ const baseImageUrl = '../../../../assets/images/placeholders/';
 export class MainCrewComponent {
   members: Array<CrewMember> = [
     {
-      name: 'Marco Stue',
+      name: 'Marco Forest',
       gender: 'male',
       githubUrl: 'http://www.github.com',
       linkedInUrl: 'http://www.linkedin.com',
