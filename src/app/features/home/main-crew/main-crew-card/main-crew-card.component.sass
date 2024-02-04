@@ -3,9 +3,9 @@
   height: 400px
   position: relative
   cursor: pointer
-  transition: transform 200ms ease
   background-size: cover
   text-align: center
+  transition: transform 200ms ease, box-shadow 200ms ease-in-out
 
 .main-crew__card-overlay
   width: 100%
@@ -22,6 +22,7 @@
 
 .main-crew__card:hover
   transform: translateY(-20px)
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5)
 
 .main-crew__card:hover .main-crew__card-overlay
   opacity: 0
