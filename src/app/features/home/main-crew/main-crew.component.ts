@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MainCrewCardComponent } from './main-crew-card/main-crew-card.component';
 import { CrewMember } from '../../../types/CrewMember';
 
-const baseImageUrl = '../../../../assets/images/';
+const baseImageUrl = '../../../../assets/images/placeholders/';
 
 @Component({
   selector: 'app-main-crew',
@@ -23,7 +23,6 @@ export class MainCrewComponent {
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
       profilePicture: baseImageUrl + 'placeholder-anime-CTO.jpg',
-      socialNetworks: [],
     },
     {
       name: 'John Smith',
@@ -34,7 +33,6 @@ export class MainCrewComponent {
       },
       phrase: 'Atrévete a soñar, desafía los límites, crea el futuro',
       profilePicture: baseImageUrl + 'placeholder-anime-CEO.jpg',
-      socialNetworks: [],
     },
     {
       name: 'Diana Skies',
@@ -46,7 +44,6 @@ export class MainCrewComponent {
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
       profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
-      socialNetworks: [],
     },
   ];
 }

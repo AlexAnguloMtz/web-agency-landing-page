@@ -15,10 +15,6 @@ export class MainCrewCardComponent {
   @Input() gender: string;
 
   getOverlayImage(): string {
-    if (this.gender === 'male') {
-      return 'url(assets/images/member-secret-male.png)';
-    } else {
-      return 'url(assets/images/member-secret-female.png)';
-    }
+    return `url(assets/images/placeholders/member-secret-${this.gender}.png`;
   }
 }
