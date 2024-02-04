@@ -7,7 +7,14 @@
       <p class="main-crew__card-role-description">
         {{ roleDescription.toUpperCase() }}
       </p>
-      <h4 class="main-crew__card-name">{{ name.toUpperCase() }}</h4>
+      <div class="main-crew__card-name-words">
+        @for (nameWord of name.toUpperCase().split(' '); track nameWord) {
+        <div class="main-crew__card-name-word-wrapper">
+          <p class="main-crew__card-name-word">{{ nameWord }}</p>
+        </div>
+        }
+      </div>
+
       <p class="main-crew__card-phrase">&quot;{{ phrase }}&quot;</p>
       <div class="main-crew__card-social-networks">
         @for (socialNetwork of getSocialNetworks(); track socialNetwork.url) {
