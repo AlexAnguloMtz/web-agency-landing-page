@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './main-crew.component.sass',
 })
 export class MainCrewComponent {
-  member = 'Joe Mama';
+  member = 'Crew Members';
 }
