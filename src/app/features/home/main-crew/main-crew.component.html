@@ -5,6 +5,7 @@
     @for (member of members; track member.name) {
     <app-main-crew-card
       text="{{ member.name }}"
+      roleDescription="{{ member.role.description }}"
       profilePicture="{{ member.profilePicture }}"
     ></app-main-crew-card>
     }
