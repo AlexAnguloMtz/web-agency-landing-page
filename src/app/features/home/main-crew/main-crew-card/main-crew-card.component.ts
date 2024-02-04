@@ -13,9 +13,9 @@ export class MainCrewCardComponent {
   @Input() profilePicture: string;
   @Input() roleDescription: string;
   @Input() gender: string;
-  @Input() twitterHref?: string;
-  @Input() githubHref?: string;
-  @Input() linkedInHref?: string;
+  @Input() twitterUrl?: string;
+  @Input() githubUrl?: string;
+  @Input() linkedInUrl?: string;
 
   getOverlayImage(): string {
     return `url(assets/images/placeholders/member-secret-${this.gender}.png`;
@@ -24,25 +24,25 @@ export class MainCrewCardComponent {
   getSocialNetworks(): Array<SocialNetwork> {
     const logoBaseUrl: string = 'assets/images/logos';
     const socialNetworks: Array<SocialNetwork> = [];
-    if (this.twitterHref) {
+    if (this.twitterUrl) {
       socialNetworks.push({
         imageSrc: `${logoBaseUrl}/`,
         imageAlt: `${this.name} twitter account`,
-        href: this.twitterHref,
+        href: this.twitterUrl,
       });
     }
-    if (this.githubHref) {
+    if (this.githubUrl) {
       socialNetworks.push({
         imageSrc: `${logoBaseUrl}/github-logo.png`,
         imageAlt: `${this.name} github account`,
-        href: this.githubHref,
+        href: this.githubUrl,
       });
     }
-    if (this.linkedInHref) {
+    if (this.linkedInUrl) {
       socialNetworks.push({
         imageSrc: `${logoBaseUrl}/`,
         imageAlt: `${this.name} linkedin account`,
-        href: this.linkedInHref,
+        href: this.linkedInUrl,
       });
     }
     return socialNetworks;

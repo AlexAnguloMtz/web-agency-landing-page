@@ -16,6 +16,7 @@ export class MainCrewComponent {
     {
       name: 'Marco Stue',
       gender: 'male',
+      githubUrl: 'nice',
       role: {
         name: 'CTO',
         description: 'Manages all technology related stuff',
