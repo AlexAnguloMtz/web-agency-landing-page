@@ -13,6 +13,15 @@ export class MainCrewComponent {
   selectedRole: string = 'CREW MEMBERS';
   members: Array<CrewMember> = [
     {
+      name: 'Marco Stue',
+      gender: 'male',
+      role: 'CTO',
+      phrase:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      profilePicture: '',
+      socialNetworks: [],
+    },
+    {
       name: 'John Smith',
       gender: 'male',
       role: 'Team Leader',
@@ -24,15 +33,6 @@ export class MainCrewComponent {
     {
       name: 'Diana Skies',
       gender: 'female',
-      role: 'CTO',
-      phrase:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-      profilePicture: '',
-      socialNetworks: [],
-    },
-    {
-      name: 'Marco Stue',
-      gender: 'male',
       role: 'CTO',
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
