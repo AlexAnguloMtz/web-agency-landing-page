@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './main-crew-card.component.sass',
 })
 export class MainCrewCardComponent {
-  @Input() text: string;
+  @Input() name: string;
   @Input() phrase: string;
   @Input() profilePicture: string;
   @Input() roleDescription: string;
@@ -22,24 +22,35 @@ export class MainCrewCardComponent {
   }
 
   getSocialNetworks(): Array<SocialNetwork> {
-    const twitterImage = '';
-    const githubImage = '';
-    const linkedInImage = '';
+    const logoBaseUrl: string = 'assets/images/logos';
     const socialNetworks: Array<SocialNetwork> = [];
     if (this.twitterHref) {
-      socialNetworks.push({ image: twitterImage, href: this.twitterHref });
+      socialNetworks.push({
+        imageSrc: `${logoBaseUrl}/`,
+        imageAlt: `${this.name} twitter account`,
+        href: this.twitterHref,
+      });
     }
     if (this.githubHref) {
-      socialNetworks.push({ image: githubImage, href: this.githubHref });
+      socialNetworks.push({
+        imageSrc: `${logoBaseUrl}/github-logo.png`,
+        imageAlt: `${this.name} github account`,
+        href: this.githubHref,
+      });
     }
     if (this.linkedInHref) {
-      socialNetworks.push({ image: linkedInImage, href: this.linkedInHref });
+      socialNetworks.push({
+        imageSrc: `${logoBaseUrl}/`,
+        imageAlt: `${this.name} linkedin account`,
+        href: this.linkedInHref,
+      });
     }
     return socialNetworks;
   }
 }
 
 type SocialNetwork = {
-  image: string;
+  imageSrc: string;
+  imageAlt: string;
   href: string;
 };

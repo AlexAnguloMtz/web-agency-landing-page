@@ -5,8 +5,14 @@
   <div class="main-crew__card-contents">
     <div class="main-crew__card-data">
       <p class="main-crew__card-role-description">{{ roleDescription }}</p>
-      <h4 class="main-crew__card-name">{{ text }}</h4>
+      <h4 class="main-crew__card-name">{{ name }}</h4>
       <p class="main-crew__card-phrase">&quot;{{ phrase }}&quot;</p>
+      @for (socialNetwork of getSocialNetworks(); track socialNetwork.href) {
+      <img
+        src="{{ socialNetwork.imageSrc }}"
+        alt="{{ socialNetwork.imageAlt }}"
+      />
+      }
     </div>
   </div>
   <div
