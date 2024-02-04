@@ -9,6 +9,29 @@ import { Component } from '@angular/core';
 })
 export class MainCrewComponent {
   member = 'Crew Members';
+  members: Array<CrewMember> = [
+    {
+      name: 'John Smith',
+      phrase:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      profilePicture: '',
+      socialNetworks: [],
+    },
+    {
+      name: 'Diana Skies',
+      phrase:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      profilePicture: '',
+      socialNetworks: [],
+    },
+    {
+      name: 'Marco Stue',
+      phrase:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      profilePicture: '',
+      socialNetworks: [],
+    },
+  ];
 }
 
 type CrewMember = {
