@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './main-crew.component.sass',
 })
 export class MainCrewComponent {
-  member = 'Crew Members';
+  member: string = 'Crew Members';
   members: Array<CrewMember> = [
     {
       name: 'John Smith',
