@@ -31,8 +31,7 @@ export class MainCrewComponent {
         name: 'Team Leader',
         description: 'Fundador y Director Ejecutivo de My Company',
       },
-      phrase:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      phrase: 'Atrévete a soñar, desafía los límites, crea el futuro',
       profilePicture: '../../../../assets/images/placeholder-anime-CEO.jpg',
       socialNetworks: [],
     },
