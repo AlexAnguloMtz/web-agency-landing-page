@@ -9,6 +9,13 @@
   justify-content: space-evenly
   align-items: flex-end
   cursor: pointer
+  padding: 5px
+
+.hamburguer-button:hover
+  background-color: white
+
+.hamburguer-button:hover .line
+  background-color: black
   
 .hamburguer-button .line
   height: 5px
@@ -23,3 +30,7 @@
 
 .hamburguer-button .line.third
   width: 40%
+
+.hamburguer-button,
+.hamburguer-button .line
+  transition: background-color 200ms ease
