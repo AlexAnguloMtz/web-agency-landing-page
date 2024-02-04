@@ -12,7 +12,6 @@ const baseImageUrl = '../../../../assets/images/';
   styleUrl: './main-crew.component.sass',
 })
 export class MainCrewComponent {
-  selectedRole: string = 'CREW MEMBERS';
   members: Array<CrewMember> = [
     {
       name: 'Marco Stue',
