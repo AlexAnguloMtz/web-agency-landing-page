@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-crew-card',
   standalone: true,
   imports: [],
   templateUrl: './main-crew-card.component.html',
-  styleUrl: './main-crew-card.component.sass'
+  styleUrl: './main-crew-card.component.sass',
 })
 export class MainCrewCardComponent {
-
+  @Input() text: string = '';
 }
