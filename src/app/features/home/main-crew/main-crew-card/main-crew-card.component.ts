@@ -33,14 +33,14 @@ export class MainCrewCardComponent {
     }
     if (this.linkedInUrl) {
       socialNetworks.push({
-        imageSrc: `${logoBaseUrl}/`,
+        imageSrc: `${logoBaseUrl}/x-logo.png`,
         imageAlt: `${this.name} linkedin account`,
         url: this.linkedInUrl,
       });
     }
     if (this.twitterUrl) {
       socialNetworks.push({
-        imageSrc: `${logoBaseUrl}/`,
+        imageSrc: `${logoBaseUrl}/linkedin-logo.png`,
         imageAlt: `${this.name} twitter account`,
         url: this.twitterUrl,
       });
