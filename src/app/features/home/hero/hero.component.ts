@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './hero.component.sass',
 })
 export class HeroComponent {
-  heroHidden = false;
+  heroHidden = true;
 
   hideHero() {
     this.heroHidden = true;
