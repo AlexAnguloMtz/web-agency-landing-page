@@ -24,13 +24,6 @@ export class MainCrewCardComponent {
   getSocialNetworks(): Array<SocialNetwork> {
     const logoBaseUrl: string = 'assets/images/logos';
     const socialNetworks: Array<SocialNetwork> = [];
-    if (this.twitterUrl) {
-      socialNetworks.push({
-        imageSrc: `${logoBaseUrl}/`,
-        imageAlt: `${this.name} twitter account`,
-        url: this.twitterUrl,
-      });
-    }
     if (this.githubUrl) {
       socialNetworks.push({
         imageSrc: `${logoBaseUrl}/github-logo.png`,
@@ -43,6 +36,13 @@ export class MainCrewCardComponent {
         imageSrc: `${logoBaseUrl}/`,
         imageAlt: `${this.name} linkedin account`,
         url: this.linkedInUrl,
+      });
+    }
+    if (this.twitterUrl) {
+      socialNetworks.push({
+        imageSrc: `${logoBaseUrl}/`,
+        imageAlt: `${this.name} twitter account`,
+        url: this.twitterUrl,
       });
     }
     return socialNetworks;
