@@ -10,7 +10,7 @@ import { CrewMember } from '../../../types/CrewMember';
   styleUrl: './main-crew.component.sass',
 })
 export class MainCrewComponent {
-  selectedRole: string = 'Crew Members';
+  selectedRole: string = 'CREW MEMBERS';
   members: Array<CrewMember> = [
     {
       name: 'John Smith',
