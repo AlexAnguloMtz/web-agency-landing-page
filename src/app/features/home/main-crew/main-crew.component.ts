@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { MainCrewCardComponent } from './main-crew-card/main-crew-card.component';
 
 @Component({
   selector: 'app-main-crew',
   standalone: true,
-  imports: [],
+  imports: [MainCrewCardComponent],
   templateUrl: './main-crew.component.html',
   styleUrl: './main-crew.component.sass',
 })
