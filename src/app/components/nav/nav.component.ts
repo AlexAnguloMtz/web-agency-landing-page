@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { HamburguerButtonComponent } from './hamburguer-button/hamburguer-button.component';
 import { NavLinkComponent } from './nav-link/nav-link.component';
+import { NavLogoComponent } from './nav-logo/nav-logo.component';
 
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [NavLinkComponent, HamburguerButtonComponent],
+  imports: [NavLogoComponent, NavLinkComponent, HamburguerButtonComponent],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.sass',
 })
