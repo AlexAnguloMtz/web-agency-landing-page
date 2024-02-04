@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './hero.component.html',
-  styleUrl: './hero.component.sass'
+  styleUrl: './hero.component.sass',
 })
 export class HeroComponent {
+  heroHidden = false;
 
+  hideHero() {
+    this.heroHidden = true;
+  }
 }

@@ -4,12 +4,14 @@
   right: 0
   top: 0
   bottom: 0
-  background-color: red
   display: flex
-
   background-image: url('../../../../assets/images/hero-image-placeholder.png')
   background-repeat: no-repeat
   background-size: cover
+  transition: transform 500ms ease
+
+.hero.hidden
+  transform: translateY(-100%)
 
 .hero__overlay
   background-color: rgba(0, 0, 0, 0.5)

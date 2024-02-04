@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero" [class.hidden]="heroHidden">
   <div class="hero__overlay">
     <div class="hero__logo-with-slogan">
       <div class="hero__logo-container">
@@ -21,7 +21,7 @@
       </div>
     </div>
   </div>
-  <button class="hide-hero-button">
+  <button (click)="hideHero()" class="hide-hero-button">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
       <path
         class="arrow-down"
