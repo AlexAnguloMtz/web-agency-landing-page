@@ -34,7 +34,7 @@ export class MainCrewComponent {
       linkedInUrl: 'http://www.linkedin.com',
       twitterUrl: 'http://www.twitter.com',
       role: {
-        name: 'Team Leader',
+        name: 'CEO',
         description: 'Fundador y Director Ejecutivo de My Company',
       },
       phrase: 'Atrévete a soñar, desafía los límites, crea el futuro',
