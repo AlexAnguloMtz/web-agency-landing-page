@@ -3,4 +3,9 @@
     <h4 class="crew__header-subheader">THE REST OF THE TEAM</h4>
     <h2 class="crew__header-title">MEET THE COMPANY TEAM</h2>
   </div>
+  <div class="crew__cards">
+    @for (member of members; track member.name) {
+    <p>{{ member.name }}</p>
+    }
+  </div>
 </section>
