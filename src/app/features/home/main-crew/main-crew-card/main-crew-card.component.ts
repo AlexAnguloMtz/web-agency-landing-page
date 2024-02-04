@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core';
 export class MainCrewCardComponent {
   @Input() name: string;
   @Input() phrase: string;
-  @Input() profilePicture: string;
+  @Input() image: string;
   @Input() roleDescription: string;
   @Input() gender: string;
   @Input() twitterUrl?: string;

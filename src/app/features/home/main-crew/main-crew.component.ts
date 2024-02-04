@@ -25,7 +25,7 @@ export class MainCrewComponent {
       },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-      profilePicture: baseImageUrl + 'placeholder-anime-CTO.jpg',
+      image: baseImageUrl + 'placeholder-anime-CTO.jpg',
     },
     {
       name: 'John Smith',
@@ -38,7 +38,7 @@ export class MainCrewComponent {
         description: 'Fundador y Director Ejecutivo de My Company',
       },
       phrase: 'Atrévete a soñar, desafía los límites, crea el futuro',
-      profilePicture: baseImageUrl + 'placeholder-anime-CEO.jpg',
+      image: baseImageUrl + 'placeholder-anime-CEO.jpg',
     },
     {
       name: 'Diana Skies',
@@ -52,7 +52,7 @@ export class MainCrewComponent {
       },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-      profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
+      image: baseImageUrl + 'placeholder-anime-CFO.png',
     },
   ];
 }
