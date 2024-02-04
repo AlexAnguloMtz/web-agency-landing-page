@@ -2,7 +2,10 @@
   class="main-crew__card"
   [style.background-image]="'url(' + profilePicture + ')'"
 >
-  <div class="main-crew__card-overlay">
+  <div
+    class="main-crew__card-overlay"
+    [style.background-image]="getOverlayImage()"
+  >
     <div class="main-crew__card-data">
       <p class="main-crew__card-role-description">{{ roleDescription }}</p>
       <h4 class="main-crew__card-name">{{ text }}</h4>

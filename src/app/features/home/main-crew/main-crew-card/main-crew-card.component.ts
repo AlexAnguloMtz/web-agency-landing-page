@@ -12,4 +12,13 @@ export class MainCrewCardComponent {
   @Input() phrase: string;
   @Input() profilePicture: string;
   @Input() roleDescription: string;
+  @Input() gender: string;
+
+  getOverlayImage(): string {
+    if (this.gender === 'male') {
+      return 'url(assets/images/member-secret-male.png)';
+    } else {
+      return 'url(assets/images/member-secret-female.png)';
+    }
+  }
 }
