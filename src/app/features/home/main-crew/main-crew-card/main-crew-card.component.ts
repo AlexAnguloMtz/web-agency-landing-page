@@ -28,21 +28,21 @@ export class MainCrewCardComponent {
       socialNetworks.push({
         imageSrc: `${logoBaseUrl}/`,
         imageAlt: `${this.name} twitter account`,
-        href: this.twitterUrl,
+        url: this.twitterUrl,
       });
     }
     if (this.githubUrl) {
       socialNetworks.push({
         imageSrc: `${logoBaseUrl}/github-logo.png`,
         imageAlt: `${this.name} github account`,
-        href: this.githubUrl,
+        url: this.githubUrl,
       });
     }
     if (this.linkedInUrl) {
       socialNetworks.push({
         imageSrc: `${logoBaseUrl}/`,
         imageAlt: `${this.name} linkedin account`,
-        href: this.linkedInUrl,
+        url: this.linkedInUrl,
       });
     }
     return socialNetworks;
@@ -52,5 +52,5 @@ export class MainCrewCardComponent {
 type SocialNetwork = {
   imageSrc: string;
   imageAlt: string;
-  href: string;
+  url: string;
 };

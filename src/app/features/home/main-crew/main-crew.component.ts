@@ -16,7 +16,9 @@ export class MainCrewComponent {
     {
       name: 'Marco Stue',
       gender: 'male',
-      githubUrl: 'nice',
+      githubUrl: 'www.github.com',
+      linkedInUrl: 'www.linkedin.com',
+      twitterUrl: 'www.twitter.com',
       role: {
         name: 'CTO',
         description: 'Manages all technology related stuff',
@@ -28,6 +30,9 @@ export class MainCrewComponent {
     {
       name: 'John Smith',
       gender: 'male',
+      githubUrl: 'www.github.com',
+      linkedInUrl: 'www.linkedin.com',
+      twitterUrl: 'www.twitter.com',
       role: {
         name: 'Team Leader',
         description: 'Fundador y Director Ejecutivo de My Company',
@@ -38,6 +43,9 @@ export class MainCrewComponent {
     {
       name: 'Diana Skies',
       gender: 'female',
+      githubUrl: 'www.github.com',
+      linkedInUrl: 'www.linkedin.com',
+      twitterUrl: 'www.twitter.com',
       role: {
         name: 'CFO',
         description: 'Manages all money related stuff',

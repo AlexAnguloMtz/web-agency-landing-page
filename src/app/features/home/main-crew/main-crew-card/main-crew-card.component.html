@@ -7,15 +7,17 @@
       <p class="main-crew__card-role-description">{{ roleDescription }}</p>
       <h4 class="main-crew__card-name">{{ name }}</h4>
       <p class="main-crew__card-phrase">&quot;{{ phrase }}&quot;</p>
-      @for (socialNetwork of getSocialNetworks(); track socialNetwork.href) {
-      <div class="main-crew__social-network-wrapper">
-        <img
-          class="main-crew__social-network-image"
-          src="{{ socialNetwork.imageSrc }}"
-          alt="{{ socialNetwork.imageAlt }}"
-        />
+      <div class="main-crew__card-social-networks">
+        @for (socialNetwork of getSocialNetworks(); track socialNetwork.url) {
+        <div class="main-crew__social-network-wrapper">
+          <img
+            class="main-crew__social-network-image"
+            src="{{ socialNetwork.imageSrc }}"
+            alt="{{ socialNetwork.imageAlt }}"
+          />
+        </div>
+        }
       </div>
-      }
     </div>
   </div>
   <div
