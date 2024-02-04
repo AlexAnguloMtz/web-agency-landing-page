@@ -15,7 +15,10 @@ export class MainCrewComponent {
     {
       name: 'Marco Stue',
       gender: 'male',
-      role: 'CTO',
+      role: {
+        name: 'CTO',
+        description: 'Manages all technology related stuff',
+      },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
       profilePicture: '',
@@ -24,7 +27,10 @@ export class MainCrewComponent {
     {
       name: 'John Smith',
       gender: 'male',
-      role: 'Team Leader',
+      role: {
+        name: 'Team Leader',
+        description: 'Fundador y Director Ejecutivo de My Company',
+      },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
       profilePicture: '',
@@ -33,7 +39,10 @@ export class MainCrewComponent {
     {
       name: 'Diana Skies',
       gender: 'female',
-      role: 'CTO',
+      role: {
+        name: 'CFO',
+        description: 'Manages all money related stuff',
+      },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
       profilePicture: '',
