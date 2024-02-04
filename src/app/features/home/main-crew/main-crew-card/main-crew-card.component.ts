@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { CrewMember } from '../CrewMember';
 
 @Component({
   selector: 'app-main-crew-card',
@@ -8,5 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './main-crew-card.component.sass',
 })
 export class MainCrewCardComponent {
-  @Input() text: string = '';
+  @Input() member: CrewMember;
 }

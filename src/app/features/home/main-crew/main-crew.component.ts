@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MainCrewCardComponent } from './main-crew-card/main-crew-card.component';
+import { CrewMember } from './CrewMember';
 
 @Component({
   selector: 'app-main-crew',
@@ -34,12 +35,3 @@ export class MainCrewComponent {
     },
   ];
 }
-
-type CrewMember = {
-  name: string;
-  phrase?: string;
-  profilePicture: string;
-  socialNetworks: SocialNetworks;
-};
-
-type SocialNetworks = {};
