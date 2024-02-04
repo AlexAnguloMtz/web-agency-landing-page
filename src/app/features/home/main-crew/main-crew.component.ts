@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { MainCrewCardComponent } from './main-crew-card/main-crew-card.component';
 import { CrewMember } from '../../../types/CrewMember';
 
+const baseImageUrl = '../../../../assets/images/';
+
 @Component({
   selector: 'app-main-crew',
   standalone: true,
@@ -21,7 +23,7 @@ export class MainCrewComponent {
       },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-      profilePicture: '../../../../assets/images/placeholder-anime-CTO.jpg',
+      profilePicture: baseImageUrl + 'placeholder-anime-CTO.jpg',
       socialNetworks: [],
     },
     {
@@ -32,7 +34,7 @@ export class MainCrewComponent {
         description: 'Fundador y Director Ejecutivo de My Company',
       },
       phrase: 'Atrévete a soñar, desafía los límites, crea el futuro',
-      profilePicture: '../../../../assets/images/placeholder-anime-CEO.jpg',
+      profilePicture: baseImageUrl + 'placeholder-anime-CEO.jpg',
       socialNetworks: [],
     },
     {
@@ -44,7 +46,7 @@ export class MainCrewComponent {
       },
       phrase:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-      profilePicture: '../../../../assets/images/placeholder-anime-CFO.png',
+      profilePicture: baseImageUrl + 'placeholder-anime-CFO.png',
       socialNetworks: [],
     },
   ];
