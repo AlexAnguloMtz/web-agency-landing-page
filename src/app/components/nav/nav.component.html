@@ -1,5 +1,5 @@
 <nav class="nav">
-  <ul class="nav__links">
+  <ul class="nav__links" [class.active]="visibleLinks">
     <app-nav-link text="First"></app-nav-link>
     <app-nav-link text="Second"></app-nav-link>
     <app-nav-link text="Third"></app-nav-link>
@@ -12,5 +12,5 @@
       alt="logo"
     />
   </div>
-  <app-hamburguer-button></app-hamburguer-button>
+  <app-hamburguer-button (click)="onHamburguerClick()"></app-hamburguer-button>
 </nav>
