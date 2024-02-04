@@ -3,7 +3,7 @@
   <h3 class="main-crew__member-name">{{ member }}</h3>
   <div class="main-crew__cards">
     @for (member of members; track member.name) {
-    <app-main-crew-card member="{{ member }}"></app-main-crew-card>
+    <app-main-crew-card text="{{ member.name }}"></app-main-crew-card>
     }
   </div>
 </section>
