@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
   // TODO set this to false
-  heroHidden = false;
+  heroHidden = true;
 
   hideHero() {
     this.heroHidden = true;
