@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { CrewMember } from '../../../types/CrewMember';
+import { CrewCardComponent } from './crew-card/crew-card.component';
 
 const baseImageUrl = '../../../../assets/images/placeholders/';
 
 @Component({
   selector: 'app-crew',
   standalone: true,
-  imports: [],
+  imports: [CrewCardComponent],
   templateUrl: './crew.component.html',
   styleUrl: './crew.component.sass',
 })

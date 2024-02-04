@@ -5,7 +5,7 @@
   </div>
   <div class="crew__cards">
     @for (member of members; track member.name) {
-    <p>{{ member.name }}</p>
+    <app-crew-card name="{{ member.name }}"></app-crew-card>
     }
   </div>
 </section>
