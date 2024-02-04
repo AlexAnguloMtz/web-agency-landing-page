@@ -1,7 +1,7 @@
 <nav class="nav">
   <ul class="nav__links" [class.active]="visibleLinks">
     <div class="nav__links-close-button-container">
-      <button class="nav__close-button">
+      <button (click)="setLinksVisible(false)" class="nav__close-button">
         <img src="../../../assets/icons/xmark-solid.svg" alt="close" />
       </button>
     </div>
@@ -17,5 +17,7 @@
       alt="logo"
     />
   </div>
-  <app-hamburguer-button (click)="onHamburguerClick()"></app-hamburguer-button>
+  <app-hamburguer-button
+    (click)="setLinksVisible(true)"
+  ></app-hamburguer-button>
 </nav>

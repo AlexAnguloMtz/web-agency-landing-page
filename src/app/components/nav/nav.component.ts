@@ -12,7 +12,7 @@ import { NavLinkComponent } from './nav-link/nav-link.component';
 export class NavComponent {
   visibleLinks = false;
 
-  onHamburguerClick() {
-    this.visibleLinks = !this.visibleLinks;
+  setLinksVisible(visible: boolean) {
+    this.visibleLinks = visible;
   }
 }
