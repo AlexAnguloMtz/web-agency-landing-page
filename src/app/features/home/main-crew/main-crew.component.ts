@@ -10,3 +10,12 @@ import { Component } from '@angular/core';
 export class MainCrewComponent {
   member = 'Crew Members';
 }
+
+type CrewMember = {
+  name: string;
+  phrase?: string;
+  profilePicture: string;
+  socialNetworks: SocialNetworks;
+};
+
+type SocialNetworks = {};
