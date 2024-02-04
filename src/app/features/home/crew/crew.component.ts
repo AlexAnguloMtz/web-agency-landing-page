@@ -22,7 +22,7 @@ export class CrewComponent {
       role: {
         name: 'Sr Developer',
       },
-      profilePicture: baseImageUrl + 'placeholder-anime-SRDEV.jpg',
+      profilePicture: baseImageUrl + 'placeholder-SRDEV.jpg',
     },
     {
       name: 'Xavier Zhang',
