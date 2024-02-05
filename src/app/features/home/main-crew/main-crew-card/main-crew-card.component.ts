@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { SocialNetwork } from '../../../../types/SocialNetwork';
 
 @Component({
   selector: 'app-main-crew-card',
@@ -48,9 +49,3 @@ export class MainCrewCardComponent {
     return socialNetworks;
   }
 }
-
-type SocialNetwork = {
-  imageSrc: string;
-  imageAlt: string;
-  url: string;
-};
