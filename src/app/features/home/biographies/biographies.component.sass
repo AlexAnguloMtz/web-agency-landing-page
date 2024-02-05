@@ -1,13 +1,10 @@
 .biographies
-  width: 70%
+  width: 100%
   margin: 0 auto
   display: flex
   flex-direction: column
-  gap: 30px
 
 .biographies__biography
-  height: 550px
-  display: flex
   justify-content: center
   gap: 30px
   padding: 16px
@@ -26,9 +23,20 @@
 .biographies__biography-text
   margin-top: 12px
 
-.biographies__biography.invert
-  flex-direction: row-reverse
+@media screen and (min-width: 800px) 
+  .biographies
+    width: 70%
+    gap: 30px
 
-.biographies__biography.invert .biographies__biography-name,
-.biographies__biography.invert .biographies__biography-role
-  text-align: right
+  .biographies__biography
+    display: flex
+    height: 550px
+
+  .biographies__biography.invert
+    flex-direction: row-reverse
+
+  .biographies__biography.invert .biographies__biography-name,
+  .biographies__biography.invert .biographies__biography-role,
+  .biographies__biography.invert .biographies__biography-text
+    text-align: right
+
