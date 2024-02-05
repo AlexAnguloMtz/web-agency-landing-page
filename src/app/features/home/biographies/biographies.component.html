@@ -2,11 +2,13 @@
   <div class="biographies__all"></div>
   @for (member of members; track member.name; ; let index = $index ) {
   <div class="biographies__biography" [class.invert]="index % 2 !== 0">
-    <img
-      class="biographies__biography-image"
-      src="{{ member.image }}"
-      alt="{{ member.name }}-bio-image"
-    />
+    <div class="biographies__biography-image-wrapper">
+      <img
+        class="biographies__biography-image"
+        src="{{ member.image }}"
+        alt="{{ member.name }}-bio-image"
+      />
+    </div>
     <div class="biographies__biography-data">
       <h2 class="biographies__biography-name">
         {{ member.name.toUpperCase() }}
