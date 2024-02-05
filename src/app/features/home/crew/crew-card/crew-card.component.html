@@ -9,7 +9,7 @@
     </div>
     <div class="crew__card-social-networks">
       @for (socialNetwork of getSocialNetworks(); track socialNetwork.url) {
-      <a href="{{ socialNetwork.url }}" class="crew__social-network-wrapper">
+      <a href="{{ socialNetwork.url }}" class="crew__social-network-link">
         <img
           class="crew__social-network-image"
           src="{{ socialNetwork.imageSrc }}"
