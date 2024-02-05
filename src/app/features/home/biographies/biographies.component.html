@@ -13,14 +13,10 @@
       <h2 class="biographies__biography-name">
         {{ member.name.toUpperCase() }}
       </h2>
-      <h3 class="biographies__biography-role">
-        {{ member.role.nameLong }}
-      </h3>
+      <h3 class="biographies__biography-role">{{ member.role.nameLong }}</h3>
       <div class="biographies__biography-text">
         @for (paragraph of member.biography!.split('\n'); track paragraph) {
-        <p class="biographies__biography-paragraph">
-          {{ paragraph }}
-        </p>
+        <p class="biographies__biography-paragraph">{{ paragraph }}</p>
         <br />
         }
       </div>
