@@ -7,5 +7,19 @@
       <p class="crew__card-name-word">{{ nameWord }}</p>
       }
     </div>
+    <div class="crew__card-social-networks">
+      @for (socialNetwork of getSocialNetworks(); track socialNetwork.url) {
+      <a
+        href="{{ socialNetwork.url }}"
+        class="main-crew__social-network-wrapper"
+      >
+        <img
+          class="main-crew__social-network-image"
+          src="{{ socialNetwork.imageSrc }}"
+          alt="{{ socialNetwork.imageAlt }}"
+        />
+      </a>
+      }
+    </div>
   </div>
 </div>
