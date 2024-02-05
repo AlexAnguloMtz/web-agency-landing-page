@@ -14,7 +14,12 @@
       <h3 class="biographies__biography-role">
         {{ member.role.nameLong }}
       </h3>
-      <p class="biographies__biography-text">{{ member.biography }}</p>
+      <div class="biographies__biography-text">
+        @for (paragraph of member.biography!.split('\n'); track paragraph) {
+        <p class="biographies__biography-paragraph">{{ paragraph }}</p>
+        <br />
+        }
+      </div>
     </div>
   </div>
   }
