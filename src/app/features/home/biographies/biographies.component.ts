@@ -15,7 +15,7 @@ export class BiographiesComponent {
     {
       name: 'Jack Daniels',
       role: { nameLong: 'Fundador, Director y presidente general' },
-      image: imageBaseUrl + '/',
+      image: imageBaseUrl + '/placeholder-crew.jpg',
       biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante eget justo condimentum dapibus. Nullam sit amet ultricies sem. Fusce nec urna euismod, posuere metus a, vestibulum libero. Nullam consectetur, augue a volutpat tincidunt, neque justo cursus libero, in luctus ligula sem vel justo. Integer a elit vitae justo venenatis mattis. Vivamus auctor bibendum ante, eget vulputate turpis suscipit eget. Etiam non justo a purus condimentum volutpat nec vitae justo.
 
       Pellentesque euismod, eros eget tincidunt rhoncus, mauris lacus elementum tellus, id eleifend metus libero vel tortor. Aliquam erat volutpat. Integer eu semper sem. Suspendisse potenti. Nunc sed lorem quis nulla semper sagittis. Nulla facilisi. Ut rhoncus accumsan massa, eu convallis justo vulputate in. Vivamus congue lectus in justo laoreet, vel dictum ex efficitur.
@@ -28,7 +28,7 @@ export class BiographiesComponent {
     {
       name: 'Captain Morgan',
       role: { nameLong: 'Jefe de Finanzas, Gestor de Inversiones' },
-      image: imageBaseUrl + '/',
+      image: imageBaseUrl + '/placeholder-crew.jpg',
       biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante eget justo condimentum dapibus. Nullam sit amet ultricies sem. Fusce nec urna euismod, posuere metus a, vestibulum libero. Nullam consectetur, augue a volutpat tincidunt, neque justo cursus libero, in luctus ligula sem vel justo. Integer a elit vitae justo venenatis mattis. Vivamus auctor bibendum ante, eget vulputate turpis suscipit eget. Etiam non justo a purus condimentum volutpat nec vitae justo.
 
       Pellentesque euismod, eros eget tincidunt rhoncus, mauris lacus elementum tellus, id eleifend metus libero vel tortor. Aliquam erat volutpat. Integer eu semper sem. Suspendisse potenti. Nunc sed lorem quis nulla semper sagittis. Nulla facilisi. Ut rhoncus accumsan massa, eu convallis justo vulputate in. Vivamus congue lectus in justo laoreet, vel dictum ex efficitur.
@@ -41,7 +41,7 @@ export class BiographiesComponent {
     {
       name: 'Hammer Austin',
       role: { nameLong: 'Jefe de Tecnología, Gestor de Personal Técnico' },
-      image: imageBaseUrl + '/',
+      image: imageBaseUrl + '/placeholder-crew.jpg',
       biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante eget justo condimentum dapibus. Nullam sit amet ultricies sem. Fusce nec urna euismod, posuere metus a, vestibulum libero. Nullam consectetur, augue a volutpat tincidunt, neque justo cursus libero, in luctus ligula sem vel justo. Integer a elit vitae justo venenatis mattis. Vivamus auctor bibendum ante, eget vulputate turpis suscipit eget. Etiam non justo a purus condimentum volutpat nec vitae justo.
 
       Pellentesque euismod, eros eget tincidunt rhoncus, mauris lacus elementum tellus, id eleifend metus libero vel tortor. Aliquam erat volutpat. Integer eu semper sem. Suspendisse potenti. Nunc sed lorem quis nulla semper sagittis. Nulla facilisi. Ut rhoncus accumsan massa, eu convallis justo vulputate in. Vivamus congue lectus in justo laoreet, vel dictum ex efficitur.

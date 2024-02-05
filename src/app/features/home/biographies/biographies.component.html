@@ -1,6 +1,12 @@
 <section class="biographies">
   <div class="biographies__all"></div>
   @for (member of members; track member.name) {
-  <div class="biographies__biography">{{ member.name }}</div>
+  <div class="biographies__biography">
+    <img
+      class="biographies__biography-image"
+      src="{{ member.image }}"
+      alt="{{ member.name }}-bio-image"
+    />
+  </div>
   }
 </section>
