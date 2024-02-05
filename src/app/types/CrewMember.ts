@@ -6,6 +6,7 @@ export type CrewMember = {
   role: CrewMemberRole;
   image: string;
   phrase?: string;
+  biography?: string;
   githubUrl?: string;
   linkedInUrl?: string;
   twitterUrl?: string;
