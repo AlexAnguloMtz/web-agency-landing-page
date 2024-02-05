@@ -1,1 +1,6 @@
-<section></section>
+<section class="biographies">
+  <div class="biographies__all"></div>
+  @for (member of members; track member.name) {
+  <div class="biographies__biography">{{ name }}</div>
+  }
+</section>
