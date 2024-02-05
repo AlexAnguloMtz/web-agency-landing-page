@@ -8,7 +8,7 @@
     <app-crew-card
       name="{{ member.name.toUpperCase() }}"
       image="{{ member.image }}"
-      role="{{ member.role.name.toUpperCase() }}"
+      role="{{ member.role.name!.toUpperCase() }}"
       linkedInUrl="{{ member.linkedInUrl }}"
       githubUrl="{{ member.githubUrl }}"
       twitterUrl="{{ member.twitterUrl }}"
