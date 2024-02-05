@@ -10,4 +10,5 @@ import { Component, Input } from '@angular/core';
 export class CrewCardComponent {
   @Input() name: string;
   @Input() image: string;
+  @Input() role: string;
 }

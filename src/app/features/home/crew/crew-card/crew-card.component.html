@@ -1,5 +1,8 @@
 <div class="crew__card" [style.background-image]="'url(' + image + ')'">
   <div class="crew__card-overlay">
-    <p>{{ name }}</p>
+    <div class="crew__card-contents">
+      <p class="crew__card-role">{{ role }}</p>
+      <h3 class="crew__card-name">{{ name }}</h3>
+    </div>
   </div>
 </div>
