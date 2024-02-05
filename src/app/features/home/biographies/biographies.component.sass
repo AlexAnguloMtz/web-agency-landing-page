@@ -8,12 +8,14 @@
   justify-content: center
   gap: 30px
   padding: 16px
+  max-width: 1000px
+  margin: 0 auto
 
 .biographies__biography-image-wrapper
   text-align: center
 
 .biographies__biography-image
-  height: 100%
+  height: 550px
   width: 340px
   object-fit: cover
 
@@ -29,12 +31,10 @@
 
 @media screen and (min-width: 800px) 
   .biographies
-    width: 70%
     gap: 30px
 
   .biographies__biography
     display: flex
-    height: 550px
 
   .biographies__biography.invert
     flex-direction: row-reverse
