@@ -14,7 +14,7 @@ const baseImageUrl = '../../../../assets/images/placeholders/';
 export class CrewComponent {
   members: Array<CrewMember> = [
     {
-      name: 'Kim Chan',
+      name: 'Daniel Jenkins',
       gender: 'male',
       githubUrl: 'http://www.github.com',
       linkedInUrl: 'http://www.linkedin.com',
@@ -25,7 +25,7 @@ export class CrewComponent {
       image: baseImageUrl + 'placeholder-SRDEV.jpg',
     },
     {
-      name: 'Xavier Zhang',
+      name: 'Gabriel Sabbadin',
       gender: 'male',
       githubUrl: 'http://www.github.com',
       linkedInUrl: 'http://www.linkedin.com',
@@ -33,7 +33,7 @@ export class CrewComponent {
       role: {
         name: 'AI Science Developer',
       },
-      image: baseImageUrl + 'placeholder-anime-AI.png',
+      image: baseImageUrl + 'placeholder-AI.jpg',
     },
     {
       name: 'Sophia Wang',
