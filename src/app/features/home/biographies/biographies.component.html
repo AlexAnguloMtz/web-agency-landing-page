@@ -1,7 +1,7 @@
 <section class="biographies">
   <div class="biographies__all"></div>
-  @for (member of members; track member.name) {
-  <div class="biographies__biography">
+  @for (member of members; track member.name; ; let index = $index ) {
+  <div class="biographies__biography" [class.invert]="index % 2 !== 0">
     <img
       class="biographies__biography-image"
       src="{{ member.image }}"
@@ -16,7 +16,9 @@
       </h3>
       <div class="biographies__biography-text">
         @for (paragraph of member.biography!.split('\n'); track paragraph) {
-        <p class="biographies__biography-paragraph">{{ paragraph }}</p>
+        <p class="biographies__biography-paragraph">
+          {{ paragraph }}
+        </p>
         <br />
         }
       </div>
