@@ -2,23 +2,24 @@
   margin: 0 auto
   display: flex
   flex-direction: column
+  overflow: hidden
 
 .biographies__biography
-  justify-content: center
-  gap: 30px
-  padding: 16px
-  max-width: 1000px
   margin: 0 auto
 
 .biographies__biography-image-wrapper
   text-align: center
   height: 550px
   width: 300px
+  margin: 0 auto
 
 .biographies__biography-image
   width: 100%
   height: 100%
   object-fit: cover
+
+.biographies__biography-data
+  padding: 0 16px
 
 .biographies__biography-name
   font-size: 30px
@@ -36,6 +37,9 @@
 
   .biographies__biography
     display: flex
+    justify-content: center
+    gap: 30px
+    max-width: 1000px
 
   .biographies__biography.invert
     flex-direction: row-reverse
