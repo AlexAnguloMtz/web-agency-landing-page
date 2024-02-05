@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { CrewMember } from '../../../types/CrewMember';
 
+const imageBaseUrl: string = 'assets/images/placeholders';
+
 @Component({
   selector: 'app-biographies',
   standalone: true,
@@ -13,18 +15,20 @@ export class BiographiesComponent {
     {
       name: 'Jack Daniels',
       role: { nameLong: 'Fundador, Director y presidente general' },
-      image: '',
+      image: imageBaseUrl + '/',
       biography: 'Lorem ipsum',
     },
     {
       name: 'Captain Morgan',
       role: { nameLong: 'Jefe de Finanzas, Gestor de Inversiones' },
-      image: 'Lorem ipsum',
+      image: imageBaseUrl + '/',
+      biography: 'Lorem ipsum',
     },
     {
       name: 'Hammer Austin',
       role: { nameLong: 'Jefe de Tecnología, Gestor de Personal Técnico' },
-      image: 'Lorem ipsum',
+      image: imageBaseUrl + '/',
+      biography: 'Lorem ipsum',
     },
   ];
 }
