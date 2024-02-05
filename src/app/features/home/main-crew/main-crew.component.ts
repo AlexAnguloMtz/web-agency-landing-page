@@ -28,7 +28,7 @@ export class MainCrewComponent {
       image: baseImageUrl + 'placeholder-anime-CTO.jpg',
     },
     {
-      name: 'John Smith',
+      name: 'Yosaka Lee',
       gender: 'male',
       githubUrl: 'http://www.github.com',
       linkedInUrl: 'http://www.linkedin.com',
