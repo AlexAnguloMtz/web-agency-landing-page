@@ -1,12 +1,11 @@
 <div class="crew__card" [style.background-image]="'url(' + image + ')'">
-  <div class="crew__card-overlay">
-    <div class="crew__card-contents">
-      <p class="crew__card-role">{{ role }}</p>
-      <div class="crew__card-name">
-        @for (nameWord of name.toUpperCase().split(' '); track nameWord) {
-        <p class="crew__card-name-word">{{ nameWord }}</p>
-        }
-      </div>
+  <div class="crew__card-overlay"></div>
+  <div class="crew__card-contents">
+    <p class="crew__card-role">{{ role }}</p>
+    <div class="crew__card-name">
+      @for (nameWord of name.toUpperCase().split(' '); track nameWord) {
+      <p class="crew__card-name-word">{{ nameWord }}</p>
+      }
     </div>
   </div>
 </div>
