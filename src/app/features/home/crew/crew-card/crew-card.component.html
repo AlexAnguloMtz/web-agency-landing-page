@@ -9,12 +9,9 @@
     </div>
     <div class="crew__card-social-networks">
       @for (socialNetwork of getSocialNetworks(); track socialNetwork.url) {
-      <a
-        href="{{ socialNetwork.url }}"
-        class="main-crew__social-network-wrapper"
-      >
+      <a href="{{ socialNetwork.url }}" class="crew__social-network-wrapper">
         <img
-          class="main-crew__social-network-image"
+          class="crew__social-network-image"
           src="{{ socialNetwork.imageSrc }}"
           alt="{{ socialNetwork.imageAlt }}"
         />
