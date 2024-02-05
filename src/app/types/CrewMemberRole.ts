@@ -1,5 +1,5 @@
 export type CrewMemberRole = {
-  name: string;
+  name?: string;
   nameLong?: string;
   description?: string;
 };
