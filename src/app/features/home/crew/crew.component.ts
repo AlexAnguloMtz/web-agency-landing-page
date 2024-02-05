@@ -22,7 +22,7 @@ export class CrewComponent {
       role: {
         name: 'Sr Developer',
       },
-      image: baseImageUrl + 'placeholder-SRDEV.jpg',
+      image: baseImageUrl + 'placeholder-crew.jpg',
     },
     {
       name: 'Gabriel Sabbadin',
@@ -33,7 +33,7 @@ export class CrewComponent {
       role: {
         name: 'AI Science Developer',
       },
-      image: baseImageUrl + 'placeholder-AI.jpg',
+      image: baseImageUrl + 'placeholder-crew.jpg',
     },
     {
       name: 'Sophia Wang',
@@ -44,7 +44,7 @@ export class CrewComponent {
       role: {
         name: 'Data Science',
       },
-      image: baseImageUrl + 'placeholder-anime-DS.png',
+      image: baseImageUrl + 'placeholder-crew.jpg',
     },
     {
       name: 'Eva Martinez',
@@ -55,7 +55,7 @@ export class CrewComponent {
       role: {
         name: 'Graphic Design',
       },
-      image: baseImageUrl + 'placeholder-anime-GD.png',
+      image: baseImageUrl + 'placeholder-crew.jpg',
     },
     {
       name: 'Stella Nguyen',
@@ -66,7 +66,7 @@ export class CrewComponent {
       role: {
         name: 'Digital Marketing',
       },
-      image: baseImageUrl + 'placeholder-anime-DM.png',
+      image: baseImageUrl + 'placeholder-crew.jpg',
     },
     {
       name: 'Marco Ugarte',
@@ -77,7 +77,7 @@ export class CrewComponent {
       role: {
         name: 'Business Intelligence',
       },
-      image: baseImageUrl + 'placeholder-anime-BI.png',
+      image: baseImageUrl + 'placeholder-crew.jpg',
     },
   ];
 }
