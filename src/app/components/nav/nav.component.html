@@ -1,4 +1,14 @@
 <nav class="nav">
+  <img
+    class="nav__triangle nav__triangle-left"
+    src="../../../assets/images/nav-bar-triangle.png"
+    alt="rounded edge left"
+  />
+  <img
+    class="nav__triangle nav__triangle-right"
+    src="../../../assets/images/nav-bar-triangle.png"
+    alt="rounded edge right"
+  />
   <ul class="nav__links" [class.active]="visibleLinks">
     <div class="nav__links-close-button-container">
       <button (click)="setLinksVisible(false)" class="nav__close-button">
