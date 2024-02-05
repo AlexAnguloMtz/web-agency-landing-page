@@ -6,9 +6,9 @@
   <div class="crew__cards">
     @for (member of members; track member.name) {
     <app-crew-card
-      name="{{ member.name }}"
+      name="{{ member.name.toUpperCase() }}"
       image="{{ member.image }}"
-      role="{{ member.role.name }}"
+      role="{{ member.role.name.toUpperCase() }}"
     ></app-crew-card>
     }
   </div>
