@@ -4,6 +4,7 @@ import { MainCrewComponent } from './main-crew/main-crew.component';
 import { HeroComponent } from './hero/hero.component';
 import { CrewComponent } from './crew/crew.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { BiographiesComponent } from './biographies/biographies.component';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MainCrewComponent,
     CrewComponent,
     AboutUsComponent,
+    BiographiesComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.sass',
